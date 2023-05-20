@@ -26,5 +26,5 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 
 ## Function
 
-This CAP sample project contains a function:convertDoc() that converts .docx file from a folder & converts it to a .pdf file.
+This CAP sample project contains a `function:convertDoc()` that converts .docx file from a folder & converts it to a .pdf file.
 
