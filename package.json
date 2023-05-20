@@ -1,0 +1,29 @@
+{
+  "name": "word2pdf",
+  "version": "1.0.0",
+  "description": "CAP project having a function to convert .docx to .pdf file with dynamic watermark",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^6.8.1",
+    "cf-nodejs-logging-support": "^7.0.0",
+    "express": "^4.18.2",
+    "mammoth": "^1.5.1",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana-cloud"
+      }
+    }
+  }
+}
